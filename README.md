@@ -1,6 +1,8 @@
 # geoconnectables or mapping the priests: connecting 8 major LOD suppliers
 
-In this data story, we are going to show how you can combine tools from 8 major institutes and networks into a single *pipeline to visualize* data from a CSV onto a map image, whilst offering it as Linked Open Data.
+In this data story, we are going to show how you can combine tools from 8 major institutes and networks into a single *pipeline to visualize* data from a CSV onto a map image, whilst offering it as Linked Open Data. For interactive versions of this data story visit:
+[Kadaster labs](https://data.labs.kadaster.nl/kadaster-dev/-/stories/hack-a-little)
+[Druid](https://druid.datalegend.net/dataLegend/-/stories/hack-a-little)
 
 ## Starting in the 16th century...
 A long time ago in a galax..., well actually in this galaxy and in a place that we call 'The Netherlands', at least nowadays... What we now from that era may not be a lot, but for an important group of people, those who would rise in the ranks of religious orders we know quite a lot. For example, we know, where they were born... and that might be a little more interesting than you'd expect... because was faith random? Did the divine call spread evenly across the country? Or were those of the cloth born, in the vicinity of churces, where the influence of religious orders was strong.
