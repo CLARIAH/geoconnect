@@ -27,7 +27,6 @@ Well, to my knowledge orginating from the New York Public Library, mapwarper is 
 __Query__: 
 
 
-
 __Query__: See this [example query](https://druid.datalegend.net/dataLegend/-/queries/kloosters-toen-kadaster-nu/1)
 
 
