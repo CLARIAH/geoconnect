@@ -1,6 +1,6 @@
-# geoconnectables or mapping the priests: tools from four international networks in one pipeline.
+# geoconnectables or mapping the priests: connecting 8 major LOD suppliers
 
-In this data story, we are going to show how you can combine tools from *four different international networks* into a single *pipeline to visualize* data from a CSV onto a map image, whilst offering it as Linked Open Data.
+In this data story, we are going to show how you can combine tools from 8 major institutes and networks into a single *pipeline to visualize* data from a CSV onto a map image, whilst offering it as Linked Open Data.
 
 ## Starting in the 16th century...
 A long time ago in a galax..., well actually in this galaxy and in a place that we call 'The Netherlands', at least nowadays... What we now from that era may not be a lot, but for an important group of people, those who would rise in the ranks of religious orders we know quite a lot. For example, we know, where they were born... and that might be a little more interesting than you'd expect... because was faith random? Did the divine call spread evenly across the country? Or were those of the cloth born, in the vicinity of churces, where the influence of religious orders was strong.
@@ -35,6 +35,6 @@ __Query__: See this [example query](https://druid.datalegend.net/dataLegend/-/qu
 
 
 ## Wrapping the mapping
-So far, in over four years of hack-a-LODS the focus was always on a telling an important data story. The Hack-a-LOD has been of crucial importance to the (Duthc) LOD community and as a result, this year, we felt things have matured enough to tell a story about the networks themselves. There are now so many components in place, that we are able to exchange tools and information from a variety of networks and suppliers, without the need of adding much ourselves.
+So far, in over four years of hack-a-LODS the focus was always on a telling an important data story. The Hack-a-LOD has been of crucial importance to the (Duthc) LOD community and as a result, this year, we felt things have matured enough to tell a story about the networks themselves. There are now so many components in place, that we are able to exchange tools and information from a variety of networks and suppliers, without the need of adding much ourselves. To sum up: source data are provided by the IISG, VU; the Linked Data by Kadaster, the newly LDWizard derived LOD is hosted by CLARIAH and PLDN, while the maplayers are provided by Mapwarper and PDOK, whilst Triply provided the WMS to SPARQL demonstrator.
 
 <img src="hack-a-little-arch.png">
