@@ -8,7 +8,7 @@ A long time ago in a galax..., well actually in this galaxy and in a place that 
 ## Step 1: transpose CSV to Linked Data
 The first thing we did was to create Linked Data from a CSV file using the [LDWizard](https://ldwizard.netwerkdigitaalerfgoed.nl/1) a tool brought to you by the [Dutch Digital Heritage Network](https://www.netwerkdigitaalerfgoed.nl). Please see this [demo](https://www.youtube.com/watch?v=VO61pqKWw7A) on how you can do it yourself.
 
-One really cool feature of the LDWizard is that through its design everyone can create their own 'flavour' of LDWizard. For this [Hack-a-LOD](https://hackalod.com) Jorrit from Kadaster created a geo-flavoured LDWizard, that allows you to directly transpose geo coordinates into properly defined Linked Data. This allows us to easily visualize data and to perform geo related sparql queries, for example whether something is close to something else. 
+One really cool feature of the LDWizard is that through its design everyone can create their own 'flavour' of LDWizard. For this [Hack-a-LOD](https://hackalod.com) Jorrit from Kadaster created a geo-flavoured LDWizard, that allows you to directly transpose geo coordinates into properly defined Linked Data. Make sure you [watch his demo](https://youtu.be/6V7ejBSCpH8). This allows us to easily visualize data and to perform geo related sparql queries, for example whether something is close to something else. 
 
 This feature proved to be crucial: our 16th century place names, did not at all resemble contemporary place names: e.g. "Oculo" back then, is "Schiermonnikoog" now. Now your average regex excercise...
 
@@ -27,7 +27,14 @@ Well, to my knowledge orginating from the New York Public Library, mapwarper is 
 __Query__: 
 
 
+## Warping time by 502 years: 1518-2020 what's left of the Monestaries?
+
+So, thus far we have recovered the places that priests are coming from and how we call those places now. But what about their religious institutions? What has become of those? To answer that question we use the 16th century coordinaates of the locations of the monestaries and retrieve from the BRT what currently lies at that point: fastforwarding 500+ years in one federated query.
+
 __Query__: See this [example query](https://druid.datalegend.net/dataLegend/-/queries/kloosters-toen-kadaster-nu/1)
 
+
+## Wrapping the mapping
+So far, in over four years of hack-a-LODS the focus was always on a telling an important data story. The Hack-a-LOD has been of crucial importance to the (Duthc) LOD community and as a result, this year, we felt things have matured enough to tell a story abou the community itself. This image
 
 
