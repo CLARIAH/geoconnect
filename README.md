@@ -24,7 +24,11 @@ Now there are ton of tools that dealt with this problem, and actually a very goo
 
 Well, to my knowledge orginating from the New York Public Library, mapwarper is a very decent piece of tooling that allows you to host maps, georeference them and provde them as .kml and WMS (amongst others). For our use case, we decided to pick a map that probably qualifies for the golden raspberry amongst maps: https://mapwarper.net/maps/40981. That said, many kudos to mapwarper.net for providing this excellent service and don't forget to [donate](https://paypal.me/timdevelops) to this good cause. So brace your eyes, here goes map overlaying via SPARQL:
 
-__Query__: See
+__Query__: 
+
+
+
+__Query__: See this [example query](https://druid.datalegend.net/dataLegend/-/queries/kloosters-toen-kadaster-nu/1)
 
 
 
