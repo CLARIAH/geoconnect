@@ -35,6 +35,6 @@ __Query__: See this [example query](https://druid.datalegend.net/dataLegend/-/qu
 
 
 ## Wrapping the mapping
-So far, in over four years of hack-a-LODS the focus was always on a telling an important data story. The Hack-a-LOD has been of crucial importance to the (Duthc) LOD community and as a result, this year, we felt things have matured enough to tell a story abou the community itself. This image
+So far, in over four years of hack-a-LODS the focus was always on a telling an important data story. The Hack-a-LOD has been of crucial importance to the (Duthc) LOD community and as a result, this year, we felt things have matured enough to tell a story about the networks themselves. There are now so many components in place, that we are able to exchange tools and information from a variety of networks and suppliers, without the need of adding much ourselves.
 
-
+<img src="hack-a-little-arch.png">
