@@ -15,10 +15,16 @@ This feature proved to be crucial: our 16th century place names, did not at all 
 ## Step 2: match via geographic proximity
 So in order to relate anything contemporary to our 16th century data, we decided to match the historical places based on their geographic location to contemporary places. For the contemporary places we used Kadaster's [BRT](https://www.kadaster.nl/zakelijk/registraties/basisregistraties/brt) which is already available via this [endpoint](https://data.labs.kadaster.nl/kadaster-dev/-/queries/). We uploaded the geo-LDWizard RDF representation of the birthplaces csv file to an instance of [TriplyDB](https://triplydb.com). As a result we could write a federated query, retrieving both contemporary and historical information on the birth places of priests. 
 
-Query: See this [example query](https://data.labs.kadaster.nl/kadaster-dev/-/queries/Find-a-Dutch-place-for-a-given-point/9), for Schiermonnikoog.
+__Query__: See this [example query](https://data.labs.kadaster.nl/kadaster-dev/-/queries/Find-a-Dutch-place-for-a-given-point/9), for Schiermonnikoog.
 
 ## Step 3: eye candy or not
-When presenting map visualizations an often 
+When presenting historic map visualizations an often heard complaint at conference is that contemporary maps are ugly (or even 'evil') as layer for the actual visualization. And to be fair, especially in the case of the Netherlands, it is awkward to read place names, see bridges and highways, where 500 years ago, there was nothing but sea. It cast a shadow on the accuratess of the academic work.
+
+Now there are ton of tools that dealt with this problem, and actually a very good one is QGIS. But even QGIS requires, well.. QGIS yet another tool in the pipeline. So instead, [Triply](https://triply.cc) brought a new feature to their triple store, that allows you to use maps as underlays, as long as these maps are provided as a WMS service from a secure website (https://). This even works, when you don't have access to the triplestore, via a federated query. So how do we get a map?
+
+Well, to my knowledge orginating from the New York Public Library, mapwarper is a very decent piece of tooling that allows you to host maps, georeference them and provde them as .kml and WMS (amongst others). For our use case, we decided to pick a map that probably qualifies for the golden raspberry amongst maps: https://mapwarper.net/maps/40981. That said, many kudos to mapwarper.net for providing this excellent service and don't forget to [donate](https://paypal.me/timdevelops) to this good cause. So brace your eyes, here goes map overlaying via SPARQL:
+
+__Query__: See
 
 
 
