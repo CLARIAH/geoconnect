@@ -1,4 +1,4 @@
-# geoconnectables: tools from four international networks in one pipeline.
+# geoconnectables or mapping the priests: tools from four international networks in one pipeline.
 
 In this data story, we are going to show how you can combine tools from *four different international networks* into a single *pipeline to visualize* data from a CSV onto a map image, whilst offering it as Linked Open Data.
 
