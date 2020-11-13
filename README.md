@@ -8,7 +8,7 @@ A long time ago in a galax..., well actually in this galaxy and in a place that 
 ## Step 1: transpose CSV to Linked Data
 The first thing we did was to create Linked Data from a [CSV](https://github.com/CLARIAH/geoconnect/blob/main/reference_priest_data.txt) file using the [LDWizard](https://ldwizard.netwerkdigitaalerfgoed.nl/1) a tool brought to you by the [Dutch Digital Heritage Network](https://www.netwerkdigitaalerfgoed.nl). Please see this [demo](https://www.youtube.com/watch?v=VO61pqKWw7A) on how you can do it yourself.
 
-One really cool feature of the LDWizard is that through its design everyone can create their own 'flavour' of LDWizard. For this [Hack-a-LOD](https://hackalod.com) Jorrit from Kadaster created a geo-flavoured LDWizard, that allows you to directly transpose geo coordinates into properly defined Linked Data. Make sure you [watch his demo](https://youtu.be/6V7ejBSCpH8). This allows us to easily visualize data and to perform geo related sparql queries, for example whether something is close to something else. 
+One really cool feature of the LDWizard is that through its design everyone can create their own 'flavour' of LDWizard. For this [Hack-a-LOD](https://hackalod.com) Jorrit from Kadaster created a geo-flavoured LDWizard, that allows you to directly transpose geo coordinates into properly defined Linked Data. Make sure you [watch his demo](https://youtu.be/6V7ejBSCpH8?t=24). This allows us to easily visualize data and to perform geo related sparql queries, for example whether something is close to something else. 
 
 This feature proved to be crucial: our 16th century place names, did not at all resemble contemporary place names: e.g. "Oculo" back then, is "Schiermonnikoog" now. Now your average regex excercise...
 
